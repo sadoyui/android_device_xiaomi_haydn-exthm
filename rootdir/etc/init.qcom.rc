@@ -322,7 +322,7 @@ service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
     socket audio_hw_socket seqpacket 0666 system system
     onrestart restart audioserver
 
-# Include logger service
+    # Include logger service
 service logger /system/bin/logcat -b all -D -f /cache/boot_log.txt
     class main
     user root
