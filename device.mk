@@ -508,4 +508,4 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT PACKAGES += \
     libdisplayconfig.qti \
-    libdisplayconfig.qti,vendor
+    libdisplayconfig.qti.vendor
