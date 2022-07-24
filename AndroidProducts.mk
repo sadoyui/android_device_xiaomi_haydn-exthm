@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/exthm_haydn.mk
+    $(LOCAL_DIR)/kscope_haydn.mk
 
 COMMON_LUNCH_CHOICES := \
-    exthm_haydn-user \
-    exthm_haydn-userdebug \
-    exthm_haydn-eng
+    kscope_haydn-user \
+    kscope_haydn-userdebug \
+    kscope_haydn-eng
